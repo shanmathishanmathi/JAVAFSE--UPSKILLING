@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Structure and Files</title>
+
+    <!-- CSS Folder -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Icons Folder -->
+    <link rel="stylesheet" href="bootstrap/icons/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-primary">
+            <i class="bi bi-bootstrap"></i>
+            Bootstrap Structure Demo
+        </h1>
+
+        <p>This page uses Bootstrap CSS, JS, and Icons.</p>
+
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#demoModal">
+            Open Modal
+        </button>
+    </div>
+
+    <!-- Modal (Uses JS Folder) -->
+    <div class="modal fade" id="demoModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bootstrap Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    This modal works using Bootstrap JavaScript.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Folder -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
